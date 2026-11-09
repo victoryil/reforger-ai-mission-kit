@@ -1,0 +1,5 @@
+kit.config.json
+reference/generated/
+out/
+__pycache__/
+*.pyc

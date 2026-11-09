@@ -1,0 +1,32 @@
+# reforger-ai-mission-kit
+
+> Toolkit for building Arma Reforger missions (Enfusion engine, Enforce Script) with an AI coding agent (Codex, Claude Code). It contains:
+> - a working method;
+> - Python tools: project scaffolding, resource and API indexes, resource registration, packing, a dedicated-server self-test runner, a real game-client test with screenshots, log summaries and map locations;
+> - a mission template that compiles and passes its self-test;
+> - documented engine pitfalls;
+> - verified code recipes.
+> Windows only. The documentation is in Spanish.
+
+Start with AGENTS.md: it is the mandatory workflow and its rules. Then read docs/03-lecciones-enfusion.md (known pitfalls).
+
+Key facts:
+- **Workflow:** plan in small phases. For each phase: code → tools/server_test.py (self-test) → when something is visible, tools/pack.py + tools/client_test.py with screenshots in out/shots → commit → DEVLOG.
+- **Never invent GUIDs, coordinates or API calls:**
+  - GUIDs: tools/find.py (resource index of game, mods and projects).
+  - Coordinates: tools/map_locations.py (named map locations with x y z).
+  - API calls: tools/api.py (compact API generated locally from the official docs in Arma Reforger Tools).
+- **Processes:** kill only processes you started. Never kill by executable name, and never close the user's Workbench or game. Run one test at a time: server and game both bind UDP 2001.
+
+## Docs
+- [AGENTS.md](AGENTS.md): contract, workflow, rules, tool list.
+- [01 Método](docs/01-como-trabajo.md)
+- [02 Entorno](docs/02-entorno.md): install and kit.config.json.
+- [03 Lecciones de Enfusion](docs/03-lecciones-enfusion.md): pitfalls with cause and fix.
+- [04 Pruebas](docs/04-pruebas.md): self-test, packed test, client test, screenshots, logs.
+- [05 Recursos y mundo](docs/05-recursos-y-mundo.md): prefabs, layers, factions and loadouts as text.
+- [06 Empaquetar y publicar](docs/06-empaquetar-y-publicar.md)
+- [07 Interfaz](docs/07-interfaz.md): MCUIK and MCES UI kits.
+- [08 API](docs/08-api.md): generating and querying the compact API.
+- [Cheatsheet](reference/cheatsheet.md) and [patterns](reference/patterns/): verified snippets.
+- [Brief template](templates/brief/MISION.md) and [prompt](templates/brief/PROMPT.md).

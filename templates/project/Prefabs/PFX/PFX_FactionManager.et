@@ -1,0 +1,14 @@
+SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "{{ID:fm}}"
+ Factions {
+  SCR_Faction "{{ID:f1}}" : "{{PLAYER_FACTION_CONF}}" {
+   m_bIsPlayable 1
+  }
+  SCR_Faction "{{ID:f2}}" : "{{ENEMY_FACTION_CONF}}" {
+   m_bIsPlayable 0
+  }
+  SCR_Faction "{{ID:f3}}" : "{3FA20B01D950D31F}Configs/Factions/CIV.conf" {
+   m_bIsPlayable 0
+  }
+ }
+}

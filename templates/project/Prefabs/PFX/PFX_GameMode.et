@@ -1,0 +1,11 @@
+SCR_BaseGameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+ ID "{{ID:gm}}"
+ components {
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic {{P}}_SpawnLogic "{{ID:gmspawn}}" {
+   }
+  }
+  {{P}}_MissionComponent "{{ID:gmmission}}" {
+  }
+ }
+}

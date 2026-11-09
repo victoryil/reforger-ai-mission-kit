@@ -1,0 +1,30 @@
+{
+  "_comentario": "Copia este archivo a kit.config.json (no se sube a git) y ajusta las rutas. Usa / o \\\\ en las rutas.",
+
+  "workbench_exe": "C:/Program Files (x86)/Steam/steamapps/common/Arma Reforger Tools/Workbench/ArmaReforgerWorkbenchSteamDiag.exe",
+  "server_exe": "C:/Program Files (x86)/Steam/steamapps/common/Arma Reforger Server/ArmaReforgerServer.exe",
+  "game_exe": "C:/Program Files (x86)/Steam/steamapps/common/Arma Reforger/ArmaReforgerSteamDiag.exe",
+
+  "game_addons": "C:/Program Files (x86)/Steam/steamapps/common/Arma Reforger/addons",
+  "server_addons": "C:/Program Files (x86)/Steam/steamapps/common/Arma Reforger Server/addons",
+  "downloaded_addons": "C:/Users/TU_USUARIO/Documents/My Games/ArmaReforger/addons",
+  "workbench_addons": "C:/Users/TU_USUARIO/Documents/My Games/ArmaReforgerWorkbench/addons",
+  "workbench_logs": "C:/Users/TU_USUARIO/Documents/My Games/ArmaReforgerWorkbench/logs",
+  "api_docs": "C:/Program Files (x86)/Steam/steamapps/common/Arma Reforger Tools/Workbench/docs",
+  "extra_addons_dirs": [],
+
+  "work_dir": "C:/ArmaReforgerTest",
+
+  "project": "MiMision",
+  "project_guid": "0000000000000000",
+  "world": "{GUID_DEL_MUNDO}Worlds/MiMision/MiMision.ent",
+  "scenario": "{GUID_DEL_ESCENARIO}Missions/MiMision.conf",
+  "selftest_param": "miSelfTest",
+  "clienttest_param": "miClientTest",
+  "dumpmap_param": "MIDumpMap",
+  "client_faction": "",
+  "save_files_to_clear": ["profile/MiMision/partida.json"],
+
+  "_puertos": "El servidor y el juego usan el 2001 aunque se pida otro: no lances dos a la vez ni con otro servidor encendido.",
+  "server_port": 2001
+}
