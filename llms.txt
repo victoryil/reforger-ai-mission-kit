@@ -8,6 +8,8 @@
 > - verified code recipes.
 > Windows only. The documentation is in Spanish.
 
+License: MIT (LICENSE).
+
 Start with AGENTS.md: it is the mandatory workflow and its rules. Then read docs/03-lecciones-enfusion.md (known pitfalls).
 
 Key facts:

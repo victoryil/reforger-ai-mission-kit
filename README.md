@@ -55,3 +55,7 @@ Lo que hace `new_project.py` y comprueban las pruebas de la plantilla:
 ## Créditos
 
 Hecho por victoryil y Claude (Anthropic) durante el desarrollo de Reconquista Canaria. Arma Reforger y Enfusion son de Bohemia Interactive; este kit no está afiliado a Bohemia Interactive.
+
+## Licencia
+
+[MIT](LICENSE): puedes usarlo, modificarlo y redistribuirlo (también en tus mods) manteniendo el aviso de copyright.
